@@ -142,5 +142,8 @@ auto.items()
 # Konvertierung
 # Umwandlung von Variablen in andere Typen
 # z.B.: int <-> float, list <-> tuple, ...
-zahl1 = 5
-zahl1 = float(zahl1)  # Wandle zahl1 zu einer Kommazahl um
+zahl1 = 5.5
+zahl1 = int(zahl1)  # Wandle zahl1 zu einer ganzen Zahl um
+
+t = "5"
+t = int(t)  # Funktioniert nur, wenn hier eine Zahl enthalten ist
