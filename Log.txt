@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\lk3\source\repos\Python_Grundkurs_2026_03_02\M012.py", line 57, in <module>
+    print(2 / 0)
+          ~~^~~
+ZeroDivisionError: division by zero
