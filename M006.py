@@ -1,7 +1,6 @@
 # List Comprehension
 # Kurzschreibweise zur Erstellung von Listen
 # Innerhalb der Listenklammern wird eine Schleife ablegt; diese erzeugt eine Liste aus den Ergebnissen
-from pprint import pformat
 
 # Ohne LC
 zahlen = []
