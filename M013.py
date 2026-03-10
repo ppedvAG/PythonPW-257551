@@ -47,3 +47,13 @@ print(list(z))
 # Bei jedem Element wird die Funktion ausgeführt, die jetztige Zahl kommt in ihrer neuen Form in die Ergebnismenge hinein
 h = map(lambda x: x ** 2, zahlen)  # Neue Form: x ** 2
 print(list(h))
+
+# Siehe LC (M006)
+
+# LL        CCCCC     M     M    00000     00000      66666
+# LL      CC     CC   MM   MM   00   00   00   00    66
+# LL     C         C  M M M M  00     00 00     00  66
+# LL     C            M  M  M  00     00 00     00  66666
+# LL     C         C  M     M  00     00 00     00  66   66
+# LL      CC     CC   M     M   00   00   00   00   66   66
+# LLLLLL     CCCCC    M     M    00000     00000     66666
